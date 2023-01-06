@@ -23,19 +23,25 @@
                 <li data-username="Manage Users" 
                 class="nav-item {% if 'user' in segment %} active {% endif %}">
                 <a href="/usermgmt.html" class="nav-link">
-                    <span class="pcoded-micon"><i class="feather icon-user"></i></span>
+                    <span class="pcoded-micon"><i class="feather icon-users"></i></span>
                         <span class="pcoded-mtext">Manage Users</span></a>
-                </li> 
-                <li data-username="Profile Page" 
-                    class="nav-item {% if 'profile' in segment %} active {% endif %}">
-                    <a href="/profile.html" class="nav-link">
-                        <span class="pcoded-micon"><i class="feather icon-user"></i></span>
-                            <span class="pcoded-mtext">Profile Page</span></a>
-                </li>                
+                </li>      
+                <li data-username="Invoices" 
+                class="nav-item {% if 'profile' in segment %} active {% endif %}">
+                <a href="/profile.html" class="nav-link">
+                    <span class="pcoded-micon"><i class="feather icon-file"></i></span>
+                        <span class="pcoded-mtext">Invoices</span></a>
+            </li>           
                 <li class="nav-item pcoded-menu-caption">
                     <label>Settings</label>
                 </li>
-                <li data-username="Authentication Sign up Sign in reset password Change password Personal information profile settings map form subscribe"
+                <li data-username="Profile Page" 
+                class="nav-item {% if 'profile' in segment %} active {% endif %}">
+                <a href="/profile.html" class="nav-link">
+                    <span class="pcoded-micon"><i class="feather icon-user"></i></span>
+                        <span class="pcoded-mtext">Account</span></a>
+                </li>  
+                <li data-username="Authentication Sign up Sign in reset password Change password"
                     class="nav-item pcoded-hasmenu">
                     <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-lock"></i></span><span
                             class="pcoded-mtext">Authentication</span></a>
