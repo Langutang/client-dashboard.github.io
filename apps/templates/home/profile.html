@@ -20,11 +20,10 @@
                                 <div class="col-sm-8">
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5>Edit Info</h5>
+                                            <h5>Account Settings</h5>
                                         </div>
                                         <div class="card-block">
                                             <div class="row">
-
                                                 <div class="col-sm-6 mb-4">
                                                     <div class="form-group">
                                                         <label for="exampleInputEmail1">Username</label>
@@ -75,13 +74,48 @@
                                                         <small id="abf" class="form-text text-muted">We'll show this on your profile.</small>
                                                     </div>
                                                 </div>
-
-                                                <div class="col-sm-12 mb-2">
-                                                    <div class="form-group">
-                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                <div class="col-sm-6 mb-4">
+                                                    <label for="abt">Notifications</label>
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-sm-12">
+                                                            <ul class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                                <li><a class="nav-link text-left active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Email</a></li>
+                                                                <li><a class="nav-link text-left" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Teams</a></li>
+                                                                <li><a class="nav-link text-left" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Slack</a></li>
+                                                                <li><a class="nav-link text-left" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Desktop</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-md-9 col-sm-12">
+                                                            <div class="tab-content" id="v-pills-tabContent">
+                                                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                                                    <p class="mb-0">Get notifications sent directly to your user email</p>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                                                    <p class="mb-0">Notifications posted in channels as a bot</p>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                                                    <p class="mb-0">Notifications posted in channels as a bot</p>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                                                    <p class="mb-0">Pop-up style notifications displayed right on desktop</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>   
-
+                                                </div>
+                                                <div class="col-sm-6 mb-4">
+                                                    <div class="form-group">
+                                                        <label for="abt">Two-Factor Authentication</label>
+                                                        <br>
+                                                        <button type="button" class="btn btn-outline-primary" title="btn btn-outline-primary" data-toggle="tooltip">Enabled</button>
+                                                        <button type="button" class="btn btn-outline-light" title="btn btn-outline-light">Disable</button>
+                                                        <small id="abf" class="form-text text-muted">Enforced, cannot change.</small>
+                                                    </div>
+                                                </div>                                                
+                                                
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                                </div> 
                                             </div>
                                         </div>
                                     </div>
