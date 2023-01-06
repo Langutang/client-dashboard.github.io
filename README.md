@@ -1,10 +1,10 @@
 # [Project Rocket PSA Client Dashboard](https://appseed.us/product/datta-able/django/)
 
-In lifecycle project looking to modernize and customize the client experience with their IT interface
+A lifecycle project looking to modernize and customize the client experience with their IT interface
 
 <br />
 
-> 🚀 Built with blood, sweat, and tears, timestamp: `2022-10-05 07:49`
+> 🚀 Built with blood, sweat, and tears, timestamp: `2023-01-05 07:49`
 
 - ✅ `Up-to-date dependencies`
 - ✅ Database: `sqlite`
