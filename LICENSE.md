@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2019 - present [AppSeed](http://appseed.us/)
+Copyright (c) 2019 - present [Lang Industries](https://github.com/Project-Rocket-IO/)
 
 <br />
 
@@ -12,13 +12,13 @@ Copyright (c) 2019 - present [AppSeed](http://appseed.us/)
 | ---------------------------------- | --- |
 | License Type | MIT  |
 | Use for print | **YES** |
-| Create single personal website/app | **YES** |
-| Create single website/app for client | **YES** |
-| Create multiple website/apps for clients | **YES** |
-| Create multiple SaaS applications | **YES** |
-| End-product paying users | **YES** |
-| Product sale | **YES** |
-| Remove footer credits | **YES** |
+| Create single personal website/app | **NO** |
+| Create single website/app for client | **NO** |
+| Create multiple website/apps for clients | **NO** |
+| Create multiple SaaS applications | **NO** |
+| End-product paying users | **NO** |
+| Product sale | **NO** |
+| Remove footer credits | **NO** |
 | --- | --- |
 | Remove copyright mentions from source code | NO |
 | Production deployment assistance | NO |
@@ -29,4 +29,4 @@ Copyright (c) 2019 - present [AppSeed](http://appseed.us/)
 <br />
 
 ---
-For more information regarding licensing, please contact the AppSeed Service < *support@appseed.us* >
+For more information regarding licensing, please contact the Poject Rocket Service < *helloprojectrocket@gmail.com* >

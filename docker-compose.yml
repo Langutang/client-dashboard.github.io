@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-  appseed-app:
-    container_name: appseed_app
+  jlang_clientdash:
+    container_name: jlang_clientdash
     restart: always
     env_file: .env
     build: .
