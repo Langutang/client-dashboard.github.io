@@ -1,0 +1,201 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- [ Main Content ] start -->
+    <div class="pcoded-main-container">
+        <div class="pcoded-wrapper">
+
+            <div class="pcoded-content">
+                <div class="pcoded-inner-content">
+                    <!-- [ breadcrumb ] start -->
+
+                    <!-- [ breadcrumb ] end -->
+                    <div class="main-body">
+                        <div class="page-wrapper">
+                            <!-- [ Main Content ] start -->
+                            <div class="row">
+                                <div class="card">
+                                    <div class="card-block border-bottom">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-auto">
+                                                <i class="feather icon-gitlab f-30 text-c-red"></i>
+                                            </div>
+                                            <div class="col">
+                                                <h3 class="f-w-300">Password Reset</h3>
+                                                <span class="d-block text-uppercase">Open Ticket Issue #1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-block border-bottom">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-auto">
+                                                <i class="feather icon-gitlab f-30 text-c-red"></i>
+                                            </div>
+                                            <div class="col">
+                                                <h3 class="f-w-300">VPN Connection</h3>
+                                                <span class="d-block text-uppercase">Open Ticket Issue #2</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-block border-bottom">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-auto">
+                                                <i class="feather icon-gitlab f-30 text-c-red"></i>
+                                            </div>
+                                            <div class="col">
+                                                <h3 class="f-w-300">Remote Software Update</h3>
+                                                <span class="d-block text-uppercase">Open Ticket Issue #3</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-auto">
+                                                <i class="feather icon-calendar f-30 text-c-blue"></i>
+                                            </div>
+                                            <div class="col">
+                                                <h3 class="f-w-300">Schedule a <br> Remote Session</h3>
+                                                <span class="d-block text-uppercase">If an issue is too complex or vague, <br> try scheduling a session</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--[ Recent Users ] start-->
+                                <div class="col-xl-8 col-md-6">
+                                    <div class="card Recent-Users">
+                                        <div class="card-header">
+                                            <h5>Ticket Feed</h5>
+                                        </div>
+                                        <div class="card-block px-0 py-3">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>No.</th>
+                                                        <th>Name</th>
+                                                        <th>Date Opened</th>
+                                                        <th>Status</th>
+                                                        <th>Technician</th>
+                                                    </tr>
+                                                    <tr class="unread">
+                                                        <td>00005
+                                                        <td>
+                                                            <h6 class="mb-1">Password Reset</h6>
+                                                            <p class="m-0">Ruwee Naberrie needs a password re...</p>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted">Today, 12:30PM</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted"><i
+                                                                class="fas fa-circle text-c-green f-10 m-r-15"></i>New</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="mb-1">Padmé Amidala</h6>
+                                                            <p class="m-0">Associate Technian</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="unread">
+                                                        <td>00003
+                                                        <td>
+                                                            <h6 class="mb-1">VPN Connection Issue</h6>
+                                                            <p class="m-0">Kashyyyk wookies are experiencing out...</p>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted">Today, 12:30PM</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted"><i
+                                                                class="fas fa-circle text-c-green f-10 m-r-15"></i>New</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="mb-1">Jabba 'the' Hut</h6>
+                                                            <p class="m-0">Networking Guru</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="unread">
+                                                        <td>00004
+                                                        <td>
+                                                            <h6 class="mb-1">Printer Location</h6>
+                                                            <p class="m-0">Can't locate printer in death star</p>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted">5
+                                                                JAN 2023</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted"><i
+                                                                class="fas fa-circle text-c-purple f-10 m-r-15"></i>Waiting on Customer</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="mb-1">Mace Windu</h6>
+                                                            <p class="m-0">Intern Technian</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="unread">
+                                                        <td>00002
+                                                        <td>
+                                                            <h6 class="mb-1">Email Forwarding</h6>
+                                                            <p class="m-0">Instruct on how to send encrypted ema...</p>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted">6
+                                                                JAN 2023</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted"><i
+                                                                class="fas fa-circle text-c-yellow f-10 m-r-15"></i>Postponed</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="mb-1">Adi Gallia</h6>
+                                                            <p class="m-0">Associate Technician</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="unread">
+                                                        <td>00001
+                                                        <td>
+                                                            <h6 class="mb-1">Mapped Drive Missing</h6>
+                                                            <p class="m-0">Get mapped drive out from R2D2</p>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted">6
+                                                                JAN 2023</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="text-muted"><i
+                                                                class="fas fa-circle text-c-blue f-10 m-r-15"></i>In Process</h6>
+                                                        </td>
+                                                        <td>
+                                                            <h6 class="mb-1">Obiwan Kenobi</h6>
+                                                            <p class="m-0">Lead Technian</p>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--[ Recent Tickets ] end-->
+
+                            </div>
+                            <!-- [ Main Content ] end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- [ Main Content ] end -->            
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
