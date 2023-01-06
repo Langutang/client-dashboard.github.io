@@ -20,7 +20,7 @@ A lifecycle project looking to modernize and customize the client experience wit
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ git clone https://github.com/Project-Rocket-IO/pr-client-ui.github.io.git
+$ git clone https://github.com/Project-Rocket-IO/client-dashboard.git
 $ cd django-datta-able
 ```
 
@@ -56,7 +56,7 @@ The meaning of each variable can be found below:
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/Project-Rocket-IO/pr-client-ui.github.io.git
+$ git clone https://github.com/Project-Rocket-IO/client-dashboard.git
 $ cd django-datta-able
 ```
 
@@ -175,7 +175,7 @@ The project is coded using a simple and intuitive structure presented below:
    |              |-- index.html            # Index page
    |              |-- 404-page.html         # 404 page
    |              |-- aesthetics/
-   |              |-- *.html                # All other pages for designing 
+   |                     |-- *.html         # All other pages for designing, forms, functions
    |
    |-- requirements.txt                     # Development modules - SQLite storage
    |
