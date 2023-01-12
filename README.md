@@ -57,7 +57,7 @@ The meaning of each variable can be found below:
 ```bash
 $ # Get the code
 $ git clone https://github.com/Project-Rocket-IO/client-dashboard.git
-$ cd django-datta-able
+$ cd client-dashboard
 ```
 
 <br />
@@ -132,7 +132,7 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 
 ## ✨ Code-base structure
 
-The project is coded using a simple and intuitive structure presented below:
+The project is coded using a simple and intuitive Django structure presented below:
 
 ```bash
 < PROJECT ROOT >
