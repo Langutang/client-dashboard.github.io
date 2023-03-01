@@ -83,10 +83,22 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
+
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if os.environ.get('DB_ENGINE') and os.environ.get('DB_ENGINE') == "mysql":
+DATABASES = { 
+      'default': {
+        'ENGINE'  : 'django.db.backends.postgresql', 
+        'NAME'    : 'railway',
+        'USER'    : 'postgres',
+        'PASSWORD': '9R2azXMiZ8sP1tZRsVgG',
+        'HOST'    : 'containers-us-west-93.railway.app',
+        'PORT'    : '6618',
+        }, 
+    }
+
+""" if os.environ.get('DB_ENGINE') and os.environ.get('DB_ENGINE') == "mysql":
     DATABASES = { 
       'default': {
         'ENGINE'  : 'django.db.backends.mysql', 
@@ -103,7 +115,7 @@ else:
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': 'db.sqlite3',
         }
-    }
+    } """
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
